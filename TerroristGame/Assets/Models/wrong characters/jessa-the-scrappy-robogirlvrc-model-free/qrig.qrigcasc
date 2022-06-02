@@ -1,0 +1,700 @@
+{
+	"Document": [
+		{
+			"Title": "Body",
+			"Sections": [
+				{
+					"Section": "Body",
+					"Names": [
+						{
+							"Bone name": "pelvis",
+							"Joint name": "Root.Hips",
+							"Joint path": []
+						},
+						{
+							"Bone name": "stomach",
+							"Joint name": "Spine",
+							"Joint path": [
+								"Root.Hips"
+							]
+						},
+						{
+							"Bone name": "chest",
+							"Joint name": "Chest",
+							"Joint path": [
+								"Root.Hips",
+								"Spine"
+							]
+						},
+						{
+							"Bone name": "neck",
+							"Joint name": "Neck",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest"
+							]
+						},
+						{
+							"Bone name": "head",
+							"Joint name": "Head",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Neck"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Left arm",
+					"Names": [
+						{
+							"Bone name": "clavicle_l",
+							"Joint name": "Shoulder.L",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest"
+							]
+						},
+						{
+							"Bone name": "arm_l",
+							"Joint name": "Upperarm.L",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L"
+							]
+						},
+						{
+							"Bone name": "forearm_l",
+							"Joint name": "Lowerarm.L",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L"
+							]
+						},
+						{
+							"Bone name": "hand_l",
+							"Joint name": "Hand.L",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Right arm",
+					"Names": [
+						{
+							"Bone name": "clavicle_r",
+							"Joint name": "Shoulder.R",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest"
+							]
+						},
+						{
+							"Bone name": "arm_r",
+							"Joint name": "Upperarm.R",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R"
+							]
+						},
+						{
+							"Bone name": "forearm_r",
+							"Joint name": "Lowerarm.R",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R"
+							]
+						},
+						{
+							"Bone name": "hand_r",
+							"Joint name": "Hand.R",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Left leg",
+					"Names": [
+						{
+							"Bone name": "thigh_l",
+							"Joint name": "Thigh.L",
+							"Joint path": [
+								"Root.Hips"
+							]
+						},
+						{
+							"Bone name": "calf_l",
+							"Joint name": "Shin.L",
+							"Joint path": [
+								"Root.Hips",
+								"Thigh.L"
+							]
+						},
+						{
+							"Bone name": "foot_l",
+							"Joint name": "foot.L",
+							"Joint path": [
+								"HeelIK.L"
+							]
+						},
+						{
+							"Bone name": "toe_l",
+							"Joint name": "Toes.L",
+							"Joint path": [
+								"HeelIK.L",
+								"foot.L"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Right leg",
+					"Names": [
+						{
+							"Bone name": "thigh_r",
+							"Joint name": "Thigh.R",
+							"Joint path": [
+								"Root.Hips"
+							]
+						},
+						{
+							"Bone name": "calf_r",
+							"Joint name": "Shin.R",
+							"Joint path": [
+								"Root.Hips",
+								"Thigh.R"
+							]
+						},
+						{
+							"Bone name": "foot_r",
+							"Joint name": "foot.R",
+							"Joint path": [
+								"HeelIK.R"
+							]
+						},
+						{
+							"Bone name": "toe_r",
+							"Joint name": "Toes.R",
+							"Joint path": [
+								"HeelIK.R",
+								"foot.R"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Title": "Left hand",
+			"Sections": [
+				{
+					"Section": "Thumb",
+					"Names": [
+						{
+							"Bone name": "thumb_l_1",
+							"Joint name": "Thumb.L.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L"
+							]
+						},
+						{
+							"Bone name": "thumb_l_2",
+							"Joint name": "Thumb.L.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Thumb.L.001"
+							]
+						},
+						{
+							"Bone name": "thumb_l_3",
+							"Joint name": "Thumb.L.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Thumb.L.001",
+								"Thumb.L.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Index finger",
+					"Names": [
+						{
+							"Bone name": "index_finger_l_1",
+							"Joint name": "Index.L.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L"
+							]
+						},
+						{
+							"Bone name": "index_finger_l_2",
+							"Joint name": "Index.L.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Index.L.001"
+							]
+						},
+						{
+							"Bone name": "index_finger_l_3",
+							"Joint name": "Index.L.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Index.L.001",
+								"Index.L.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Middle finger",
+					"Names": [
+						{
+							"Bone name": "middle_finger_l_1",
+							"Joint name": "Middle.L.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L"
+							]
+						},
+						{
+							"Bone name": "middle_finger_l_2",
+							"Joint name": "Middle.L.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Middle.L.001"
+							]
+						},
+						{
+							"Bone name": "middle_finger_l_3",
+							"Joint name": "Middle.L.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Middle.L.001",
+								"Middle.L.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Ring finger",
+					"Names": [
+						{
+							"Bone name": "ring_finger_l_1",
+							"Joint name": "Ring.L.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L"
+							]
+						},
+						{
+							"Bone name": "ring_finger_l_2",
+							"Joint name": "Ring.L.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Ring.L.001"
+							]
+						},
+						{
+							"Bone name": "ring_finger_l_3",
+							"Joint name": "Ring.L.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Ring.L.001",
+								"Ring.L.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Pinky",
+					"Names": [
+						{
+							"Bone name": "pinky_l_1",
+							"Joint name": "Pinkie.L.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L"
+							]
+						},
+						{
+							"Bone name": "pinky_l_2",
+							"Joint name": "Pinkie.L.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Pinkie.L.001"
+							]
+						},
+						{
+							"Bone name": "pinky_l_3",
+							"Joint name": "Pinkie.L.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.L",
+								"Upperarm.L",
+								"Lowerarm.L",
+								"Hand.L",
+								"Pinkie.L.001",
+								"Pinkie.L.002"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Title": "Right hand",
+			"Sections": [
+				{
+					"Section": "Thumb",
+					"Names": [
+						{
+							"Bone name": "thumb_r_1",
+							"Joint name": "Thumb.R.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R"
+							]
+						},
+						{
+							"Bone name": "thumb_r_2",
+							"Joint name": "Thumb.R.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Thumb.R.001"
+							]
+						},
+						{
+							"Bone name": "thumb_r_3",
+							"Joint name": "Thumb.R.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Thumb.R.001",
+								"Thumb.R.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Index finger",
+					"Names": [
+						{
+							"Bone name": "index_finger_r_1",
+							"Joint name": "Index.R.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R"
+							]
+						},
+						{
+							"Bone name": "index_finger_r_2",
+							"Joint name": "Index.R.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Index.R.001"
+							]
+						},
+						{
+							"Bone name": "index_finger_r_3",
+							"Joint name": "Index.R.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Index.R.001",
+								"Index.R.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Middle finger",
+					"Names": [
+						{
+							"Bone name": "middle_finger_r_1",
+							"Joint name": "Middle.R.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R"
+							]
+						},
+						{
+							"Bone name": "middle_finger_r_2",
+							"Joint name": "Middle.R.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Middle.R.001"
+							]
+						},
+						{
+							"Bone name": "middle_finger_r_3",
+							"Joint name": "Middle.R.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Middle.R.001",
+								"Middle.R.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Ring finger",
+					"Names": [
+						{
+							"Bone name": "ring_finger_r_1",
+							"Joint name": "Ring.R.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R"
+							]
+						},
+						{
+							"Bone name": "ring_finger_r_2",
+							"Joint name": "Ring.R.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Ring.R.001"
+							]
+						},
+						{
+							"Bone name": "ring_finger_r_3",
+							"Joint name": "Ring.R.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Ring.R.001",
+								"Ring.R.002"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Pinky",
+					"Names": [
+						{
+							"Bone name": "pinky_r_1",
+							"Joint name": "Pinkie.R.001",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R"
+							]
+						},
+						{
+							"Bone name": "pinky_r_2",
+							"Joint name": "Pinkie.R.002",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Pinkie.R.001"
+							]
+						},
+						{
+							"Bone name": "pinky_r_3",
+							"Joint name": "Pinkie.R.003",
+							"Joint path": [
+								"Root.Hips",
+								"Spine",
+								"Chest",
+								"Shoulder.R",
+								"Upperarm.R",
+								"Lowerarm.R",
+								"Hand.R",
+								"Pinkie.R.001",
+								"Pinkie.R.002"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"Settings": {
+		"Is align pelvis": false
+	}
+}

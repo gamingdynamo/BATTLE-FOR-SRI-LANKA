@@ -1,0 +1,11 @@
+Model Information:
+* title:	M2 Browning Machine Gun
+* source:	https://sketchfab.com/3d-models/m2-browning-machine-gun-70a737b00d7643978a1884fa026e56c4
+* author:	Ajay Kumar (https://sketchfab.com/arvansajay)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "M2 Browning Machine Gun" (https://sketchfab.com/3d-models/m2-browning-machine-gun-70a737b00d7643978a1884fa026e56c4) by Ajay Kumar (https://sketchfab.com/arvansajay) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

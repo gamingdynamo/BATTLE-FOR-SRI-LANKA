@@ -1,0 +1,11 @@
+Model Information:
+* title:	莲华（れんげ) Apose + Bone + DL
+* source:	https://sketchfab.com/3d-models/apose-bone-dl-81c7b048805741e6b53cdb396febc614
+* author:	小玉耀 (https://sketchfab.com/Xiaoyuyao)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "莲华（れんげ) Apose + Bone + DL" (https://sketchfab.com/3d-models/apose-bone-dl-81c7b048805741e6b53cdb396febc614) by 小玉耀 (https://sketchfab.com/Xiaoyuyao) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
