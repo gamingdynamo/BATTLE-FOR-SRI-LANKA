@@ -1,2 +1,2 @@
-# STORM-AT-WHITE-HOUSE
-TERRORIST ATTACK ON WHITE HOUSE
+# Battle for Sri Lanka
+Project of game about Sri Lankan Civil War
